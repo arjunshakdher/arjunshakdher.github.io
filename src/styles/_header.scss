@@ -57,6 +57,15 @@
   }
 }
 
+.avatar {
+  width: 95px;
+  max-width: 100%;
+  overflow: hidden;
+  @include border-radius(100px);
+  margin: 0 auto;
+  display: block;
+}
+
 .header-icons {
   display: flex;
   justify-content: center;
