@@ -61,7 +61,10 @@
   }
 }
 
-
+.avatar {
+  width: 10px;
+  border-radius: 50%;
+}
 
 @media print {
   .no-print { display: none !important }
