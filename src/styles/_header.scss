@@ -23,12 +23,8 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .avatar {
-    width: 45px;
-    max-width: 30%;
-    overflow: hidden;
-    @include border-radius(100px);
-    margin: 0 auto;
-    display: block;
+    width: 20px;
+    border-radius: 50%;
   }
   .site-title {
     font-size: 50px;
