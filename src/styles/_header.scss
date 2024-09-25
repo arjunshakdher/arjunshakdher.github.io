@@ -22,6 +22,14 @@
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  .avatar {
+    width: 95px;
+    max-width: 100%;
+    overflow: hidden;
+    @include border-radius(100px);
+    margin: 0 auto;
+    display: block;
+  }
   .site-title {
     font-size: 50px;
     display: block;
@@ -57,14 +65,7 @@
   }
 }
 
-.avatar {
-  width: 95px;
-  max-width: 100%;
-  overflow: hidden;
-  @include border-radius(100px);
-  margin: 0 auto;
-  display: block;
-}
+
 
 @media print {
   .no-print { display: none !important }
